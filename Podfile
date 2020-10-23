@@ -6,6 +6,9 @@ target 'Parstagram' do
   use_frameworks!
 
   # Pods for Parstagram
+  pod 'Alamofire', '~> 4.4'
+  pod 'AlamofireImage'
+  # Add additional dependencies
   pod 'Parse'
 
   target 'ParstagramTests' do
